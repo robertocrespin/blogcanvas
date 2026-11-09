@@ -1,0 +1,123 @@
+/* Archivo: estilos.css */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #1a252f;
+    color: #ffffff;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+header p {
+    color: #bdc3c7;
+}
+
+.partner-card {
+    background-color: #e8f4fd;
+    border-left: 5px solid #3498db;
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 25px;
+}
+
+.partner-card h3 {
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.btn-canvas {
+    display: inline-block;
+    margin-top: 10px;
+    color: #ffffff;
+    background-color: #3498db;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.btn-canvas:hover {
+    background-color: #2980b9;
+}
+
+.card {
+    background: #ffffff;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.card h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+}
+
+ul {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+#btnInteractivo {
+    margin-top: 15px;
+    padding: 10px 18px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#btnInteractivo:hover {
+    background-color: #219150;
+}
+
+.oculto {
+    display: none;
+}
+
+.visible {
+    display: block;
+    margin-top: 10px;
+    color: #27ae60;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    color: #7f8c8d;
+    font-size: 0.9rem;
+    margin-top: 20px;
+}

@@ -1,0 +1,71 @@
+<!-- Archivo: index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Desarrollo Web</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>Desarrollo de Software Web</h1>
+            <p>Especialidad en Desarrollo Frontend</p>
+        </header>
+
+        <!-- Bloque para enlace a Canvas del compañero -->
+        <div class="partner-card">
+            <h3>Proyecto Colaborativo</h3>
+            <p>Accede a la entrega del compañero de equipo registrada en Canvas:</p>
+            <a href="https://canva.link/p07i57rbzl48t04" target="_blank" class="btn-canvas">Ver entrega en Canvas</a>
+        </div>
+
+        <main>
+            <!-- SECCIÓN HTML -->
+            <article class="card">
+                <h2>1. HTML5 (Estructura)</h2>
+                <p>Define el contenido y la esqueleto de la página web mediante etiquetas semánticas.</p>
+                <ul>
+                    <li><strong>Semántica:</strong> Uso de <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;article&gt;</code> y <code>&lt;footer&gt;</code>.</li>
+                    <li><strong>Formularios:</strong> Entradas de texto, botones y campos de captura de datos.</li>
+                    <li><strong>Multimedia:</strong> Inclusión de imágenes (<code>&lt;img&gt;</code>) y videos.</li>
+                </ul>
+            </article>
+
+            <!-- SECCIÓN CSS -->
+            <article class="card">
+                <h2>2. CSS3 (Estilos y Diseño)</h2>
+                <p>Maneja la apariencia visual, la disposición de elementos y la adaptabilidad a pantallas.</p>
+                <ul>
+                    <li><strong>Flexbox:</strong> Alineación y distribución eficiente de elementos en filas o columnas.</li>
+                    <li><strong>CSS Grid:</strong> Maquetación bidimensional para esquemas complejos.</li>
+                    <li><strong>Diseño Responsivo:</strong> Adaptación de la interfaz mediante Media Queries.</li>
+                </ul>
+            </article>
+
+            <!-- SECCIÓN JAVASCRIPT -->
+            <article class="card">
+                <h2>3. JavaScript (Interactividad)</h2>
+                <p>Aporta dinamismo, manipulación de la interfaz y procesamiento de datos en el cliente.</p>
+                <ul>
+                    <li><strong>DOM:</strong> Selección y modificación dinámica de elementos de la página.</li>
+                    <li><strong>Eventos:</strong> Respuesta a acciones como clics o escritura del usuario.</li>
+                    <li><strong>Asincronía:</strong> Consumo de APIs mediante Fetch y promesas.</li>
+                </ul>
+                <button id="btnInteractivo">Ejecutar interacción JS</button>
+                <p id="mensajeJS" class="oculto">¡JavaScript ha modificado este texto correctamente!</p>
+            </article>
+        </main>
+
+        <footer>
+            <p>Blog de Desarrollo de Software | Proyecto Frontend</p>
+        </footer>
+
+    </div>
+
+    <script src="js/java.js"></script>
+</body>
+</html>
